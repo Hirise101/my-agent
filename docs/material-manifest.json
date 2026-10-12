@@ -1,0 +1,468 @@
+{
+  "dataset_id": "my-agent-day01-demo-r1",
+  "created_date": "2026-10-12",
+  "description": "15 份完全合成的固定资料；不代表真实产品事实或已实施功能。",
+  "source_count": 15,
+  "materials": [
+    {
+      "source_id": "D01",
+      "title": "企业场景与任务",
+      "path": "demo-materials/01-enterprise-scenario.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": null,
+      "product_version": null,
+      "deployment_mode": null,
+      "sha256": "d7bf68fac8206cd387356f89cbf68a8fa761d33db7141c1054deb69ccc60d7f5",
+      "sections": [
+        {
+          "title": "场景",
+          "line_start": 7,
+          "line_end": 10
+        },
+        {
+          "title": "标准任务",
+          "line_start": 11,
+          "line_end": 14
+        },
+        {
+          "title": "预期交付",
+          "line_start": 15,
+          "line_end": 16
+        }
+      ]
+    },
+    {
+      "source_id": "D02",
+      "title": "业务需求与硬约束",
+      "path": "demo-materials/02-business-requirements.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": null,
+      "product_version": null,
+      "deployment_mode": null,
+      "sha256": "978ab911bd13123a567784d7658b7f0a4dedf3a6124b8a8ecb494dd6f068cf39",
+      "sections": [
+        {
+          "title": "硬约束",
+          "line_start": 7,
+          "line_end": 12
+        },
+        {
+          "title": "软偏好",
+          "line_start": 13,
+          "line_end": 16
+        },
+        {
+          "title": "范围与未知项",
+          "line_start": 17,
+          "line_end": 19
+        }
+      ]
+    },
+    {
+      "source_id": "D03",
+      "title": "架构与项目权限要求",
+      "path": "demo-materials/03-architecture-and-project-access.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": null,
+      "product_version": null,
+      "deployment_mode": null,
+      "sha256": "a7e2c4004e554aa51b8f523124ac4b82d74d86089d1d24d4e4984482738c5790",
+      "sections": [
+        {
+          "title": "项目与用户",
+          "line_start": 7,
+          "line_end": 10
+        },
+        {
+          "title": "服务端授权要求",
+          "line_start": 11,
+          "line_end": 15
+        },
+        {
+          "title": "部署设计",
+          "line_start": 16,
+          "line_end": 18
+        }
+      ]
+    },
+    {
+      "source_id": "D04",
+      "title": "数据假设与性能目标",
+      "path": "demo-materials/04-data-and-performance-targets.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": null,
+      "product_version": null,
+      "deployment_mode": null,
+      "sha256": "fcfbd40b1e2bb64c2e33abf4a5415b1fb450e230f2ef1554c1771af7cf584c42",
+      "sections": [
+        {
+          "title": "合成数据假设",
+          "line_start": 7,
+          "line_end": 10
+        },
+        {
+          "title": "待验证目标",
+          "line_start": 11,
+          "line_end": 14
+        },
+        {
+          "title": "实验准备",
+          "line_start": 15,
+          "line_end": 17
+        }
+      ]
+    },
+    {
+      "source_id": "D05",
+      "title": "资料与模型使用边界",
+      "path": "demo-materials/05-data-boundary-and-model-use.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": null,
+      "product_version": null,
+      "deployment_mode": null,
+      "sha256": "0d39995eed0528c966a54c49af13f86530ecf861d9cfcc9da399f8a168006452",
+      "sections": [
+        {
+          "title": "允许的数据",
+          "line_start": 7,
+          "line_end": 10
+        },
+        {
+          "title": "内部与联网模式",
+          "line_start": 11,
+          "line_end": 15
+        },
+        {
+          "title": "不可信资料",
+          "line_start": 16,
+          "line_end": 18
+        }
+      ]
+    },
+    {
+      "source_id": "D06",
+      "title": "判断状态与引用规则",
+      "path": "demo-materials/06-assessment-and-evidence-rules.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": null,
+      "product_version": null,
+      "deployment_mode": null,
+      "sha256": "83d20918457537db1a424e14686ea60072f6f361ed9dc425f7ce87bede51dad4",
+      "sections": [
+        {
+          "title": "判断状态",
+          "line_start": 7,
+          "line_end": 12
+        },
+        {
+          "title": "排除与建议",
+          "line_start": 13,
+          "line_end": 17
+        },
+        {
+          "title": "引用与结果",
+          "line_start": 18,
+          "line_end": 21
+        }
+      ]
+    },
+    {
+      "source_id": "D07",
+      "title": "候选 A 1.0 部署契约",
+      "path": "demo-materials/07-candidate-a-deployment.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": "A",
+      "product_version": "1.0",
+      "deployment_mode": "self_hosted",
+      "sha256": "bb75ba7ad6b4c1c89b75b576f243b02b79e3350c292acba8e3b78fdd40f7d847",
+      "sections": [
+        {
+          "title": "适用范围",
+          "line_start": 7,
+          "line_end": 9
+        },
+        {
+          "title": "部署能力",
+          "line_start": 10,
+          "line_end": 13
+        },
+        {
+          "title": "限制",
+          "line_start": 14,
+          "line_end": 15
+        }
+      ]
+    },
+    {
+      "source_id": "D08",
+      "title": "候选 A 1.0 查询过滤契约",
+      "path": "demo-materials/08-candidate-a-query-filter.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": "A",
+      "product_version": "1.0",
+      "deployment_mode": "self_hosted",
+      "sha256": "681fd2fe00214b0913ab1f599eb28bb359a4400698cf4ab361be28bdbb7d211c",
+      "sections": [
+        {
+          "title": "过滤接口",
+          "line_start": 7,
+          "line_end": 10
+        },
+        {
+          "title": "授权责任",
+          "line_start": 11,
+          "line_end": 14
+        },
+        {
+          "title": "未验证项",
+          "line_start": 15,
+          "line_end": 16
+        }
+      ]
+    },
+    {
+      "source_id": "D09",
+      "title": "候选 A 1.0 增量更新契约",
+      "path": "demo-materials/09-candidate-a-incremental-update.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": "A",
+      "product_version": "1.0",
+      "deployment_mode": "self_hosted",
+      "sha256": "68baeb88171312d1830494682b307ed3c69151693606e5778eecc4a931f6a9bd",
+      "sections": [
+        {
+          "title": "新增与更新",
+          "line_start": 7,
+          "line_end": 10
+        },
+        {
+          "title": "删除",
+          "line_start": 11,
+          "line_end": 14
+        },
+        {
+          "title": "未验证项",
+          "line_start": 15,
+          "line_end": 16
+        }
+      ]
+    },
+    {
+      "source_id": "D10",
+      "title": "候选 B 托管版部署契约",
+      "path": "demo-materials/10-candidate-b-deployment.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": "B",
+      "product_version": "hosted-demo",
+      "deployment_mode": "hosted",
+      "sha256": "7a7f312ea7b7b6060e15226b48df4151515979ea19da29a2d33eee38f6bf97d8",
+      "sections": [
+        {
+          "title": "适用范围",
+          "line_start": 7,
+          "line_end": 9
+        },
+        {
+          "title": "部署限制",
+          "line_start": 10,
+          "line_end": 13
+        },
+        {
+          "title": "判断依据",
+          "line_start": 14,
+          "line_end": 16
+        }
+      ]
+    },
+    {
+      "source_id": "D11",
+      "title": "候选 B 托管版其他能力",
+      "path": "demo-materials/11-candidate-b-other-capabilities.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": "B",
+      "product_version": "hosted-demo",
+      "deployment_mode": "hosted",
+      "sha256": "442e7496c51b6f1d61c4029bc3918af77490cebefb848fd260c785262b0551b5",
+      "sections": [
+        {
+          "title": "合成接口",
+          "line_start": 7,
+          "line_end": 10
+        },
+        {
+          "title": "宣传与事实",
+          "line_start": 11,
+          "line_end": 14
+        },
+        {
+          "title": "费用",
+          "line_start": 15,
+          "line_end": 16
+        }
+      ]
+    },
+    {
+      "source_id": "D12",
+      "title": "候选 C 版本与部署范围",
+      "path": "demo-materials/12-candidate-c-version-and-deployment.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": "C",
+      "product_version": "1.0 / 2.0",
+      "deployment_mode": "self_hosted",
+      "sha256": "0dc03ebb97f37043951cc28764b42aa420d3e590955265b24e2c125037cadfaf",
+      "sections": [
+        {
+          "title": "部署范围",
+          "line_start": 7,
+          "line_end": 9
+        },
+        {
+          "title": "版本差异",
+          "line_start": 10,
+          "line_end": 13
+        }
+      ]
+    },
+    {
+      "source_id": "D13",
+      "title": "候选 C 2.0 API 契约",
+      "path": "demo-materials/13-candidate-c-v2-api-contract.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": "C",
+      "product_version": "2.0",
+      "deployment_mode": "self_hosted",
+      "sha256": "f16f9a6c7f3faa4f4ef9d3b6e3bec1ef180a94ef2039cb5c4ef520c1bdb1f4c4",
+      "sections": [
+        {
+          "title": "查询与更新",
+          "line_start": 7,
+          "line_end": 10
+        },
+        {
+          "title": "删除声明",
+          "line_start": 11,
+          "line_end": 13
+        },
+        {
+          "title": "资料状态",
+          "line_start": 14,
+          "line_end": 15
+        }
+      ]
+    },
+    {
+      "source_id": "D14",
+      "title": "候选 C 2.0 已知限制",
+      "path": "demo-materials/14-candidate-c-v2-known-limitations.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": "C",
+      "product_version": "2.0",
+      "deployment_mode": "self_hosted",
+      "sha256": "1c6c122ebe887ef99845ca2337019115a6e8e921582a2961a675a80e7059a419",
+      "sections": [
+        {
+          "title": "适用范围",
+          "line_start": 7,
+          "line_end": 9
+        },
+        {
+          "title": "删除限制",
+          "line_start": 10,
+          "line_end": 13
+        },
+        {
+          "title": "处理要求",
+          "line_start": 14,
+          "line_end": 16
+        }
+      ]
+    },
+    {
+      "source_id": "D15",
+      "title": "不可信资料与提示注入样本",
+      "path": "demo-materials/15-untrusted-source-injection-fixture.md",
+      "source_type": "synthetic",
+      "is_synthetic": true,
+      "revision": "demo-r1",
+      "generated_date": "2026-10-12",
+      "fixture_status": "prepared_not_executed",
+      "candidate_id": null,
+      "product_version": null,
+      "deployment_mode": null,
+      "sha256": "497d92e4388202f7137605aceef2f2092c65623c83622b8ecb91c23e1496c244",
+      "sections": [
+        {
+          "title": "测试用途",
+          "line_start": 7,
+          "line_end": 9
+        },
+        {
+          "title": "不可信原文",
+          "line_start": 10,
+          "line_end": 12
+        },
+        {
+          "title": "正确处理",
+          "line_start": 13,
+          "line_end": 15
+        }
+      ]
+    }
+  ]
+}
