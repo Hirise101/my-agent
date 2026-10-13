@@ -1,0 +1,48 @@
+name: my-agent
+
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.19.2
+    ports:
+      - "127.0.0.1:6333:6333"
+    volumes:
+      - qdrant_data:/qdrant/storage
+      - qdrant_snapshots:/qdrant/snapshots
+    restart: unless-stopped
+
+  api:
+    build: ./backend
+    environment:
+      QDRANT_URL: http://qdrant:6333
+    ports:
+      - "127.0.0.1:8011:8000"
+    volumes:
+      - app_data:/data
+    depends_on:
+      qdrant:
+        condition: service_started
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health/ready', timeout=5)"
+      interval: 10s
+      timeout: 6s
+      start_period: 15s
+      retries: 10
+    restart: unless-stopped
+
+  web:
+    build: ./frontend
+    ports:
+      - "127.0.0.1:3010:3000"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped
+
+volumes:
+  app_data:
+  qdrant_data:
+  qdrant_snapshots:
